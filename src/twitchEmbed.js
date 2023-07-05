@@ -47,11 +47,11 @@ export default function createEmbed(userName, twitchChannel, followers) {
 
 export default function embedButton() {
     const button = new ActionRowBuilder()
-  .addComponents(
-    new ButtonBuilder()
-      .setLabel('View on Twitch')
-      .setURL('https://twitch.tv/pyxyll')
-      .setStyle(ButtonStyle.Link)
-      .setEmoji('949063528000684122')
-  )
+        .addComponents(
+            new ButtonBuilder()
+                .setLabel('View on Twitch')
+                .setURL('https://twitch.tv/pyxyll')
+                .setStyle(ButtonStyle.Link)
+                .setEmoji('949063528000684122')
+        )
 }
